@@ -46,9 +46,6 @@ $theme-color-2: #1b194a;
 $theme-color-3: #d4c89e;
 $theme-color-4: #000;
 
-//KC brand colors
-$kc-blue-dark: #273180;
-
 $icon-button-bg: $red;
 
 $onecolumn-container-padding: 50px 30px;
@@ -767,8 +764,8 @@ ul.homepage_excerpt-list{
       @include border-radius(0);
       line-height: 21px;
       &.active, &.drop {
-        background-color: $kc-blue-dark;
-        border-bottom: 1px solid darken($kc-blue-dark, 15);
+        background-color: $theme-color-4;
+        border-bottom: 1px solid darken($theme-color-4, 15);
         & > a {
           color: #fff;
         }
@@ -782,8 +779,8 @@ ul.homepage_excerpt-list{
       width: 100%;
       padding: 0;
       li {
-        border-bottom: 1px solid darken($kc-blue-dark, 15);
-        background-color: darken($kc-blue-dark, 5);
+        border-bottom: 1px solid darken($theme-color-4, 15);
+        background-color: darken($theme-color-4, 5);
         &:last-child {
           margin-bottom: 0;
         }

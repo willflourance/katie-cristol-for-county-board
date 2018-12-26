@@ -556,8 +556,8 @@ header.splash {
 // off canvas mobile nav
 
 nav {
-  background-color: $theme-color-4;
   @include mobile-nav;
+  background-color: $theme-color-4 !important;
 }
 
 // page layout if the sidebar is turned on

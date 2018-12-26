@@ -768,7 +768,7 @@ ul.homepage_excerpt-list{
       line-height: 21px;
       &.active, &.drop {
         background-color: $kc-blue-dark;
-        border-bottom: 1px solid darken($theme-color-4, 15);
+        border-bottom: 1px solid darken($kc-blue-dark, 15);
         & > a {
           color: #fff;
         }

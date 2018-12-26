@@ -755,6 +755,7 @@ ul.homepage_excerpt-list{
   }
 
   nav {
+    background-color: $theme-color-4;
     @include mobile-nav;
     float: none;
     margin: 0;
